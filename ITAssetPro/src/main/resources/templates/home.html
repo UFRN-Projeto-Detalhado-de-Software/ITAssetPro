@@ -15,13 +15,19 @@
 <body>
     <div class="home-body">
         <div class="home-body-users">
-            <p>Listar Usuários</p>
+            <a class="edit-button" th:href="@{/usuario/listar}" type="button">
+                <span class="d-flex align-items-center"> <i class="ph-arrow-left me-1"></i> <span>Listar Usuários</span></span>
+            </a>
         </div>
         <div class="home-body-chamados">
-            <p>Listar Chamados</p>
+            <a class="edit-button" th:href="@{/patrimonio/listar}" type="button">
+                <span class="d-flex align-items-center"> <i class="ph-arrow-left me-1"></i> <span>Listar Patrimonios</span></span>
+            </a>
         </div>
         <div class="home-body-patrimonios">
-            <p>Listar Patrimonios</p>
+            <a class="edit-button" th:href="@{/chamado/listar}" type="button">
+                <span class="d-flex align-items-center"> <i class="ph-arrow-left me-1"></i> <span>Listar Chamados</span></span>
+            </a>
         </div>
     </div>
 </body>

@@ -16,5 +16,21 @@
 .home-body div {
     text-align: center;
     width: 200px;
-    border: blue solid 1px;
+    margin: 10px 0;
+}
+
+.edit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    color: #001A45;
+    border: 2px solid #001A45;
+    border-radius: 500px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
 }
